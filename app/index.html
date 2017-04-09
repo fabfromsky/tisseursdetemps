@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="tisseursdetemps" class="no-js">
+
+<head>
+  <meta charset="utf-8">
+  <title ng-bind="$state.current.data.pageTitle"></title>
+  <meta name="description" content="Tisseurs de Temps est une compagnie qui, au travers du métissage des disciplines artistiques, cherche à faire voyager dans le temps et dans le rêve. Découvrez notre nouveau spectacle 'Sans Mercy'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- bower:css -->
+  <link rel="stylesheet" href="bower_components/foundation/css/foundation.min.css">
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <!-- endinject -->
+  <!-- features:css -->
+  <link rel="stylesheet" href="styles/css/index.css">
+  <link rel="stylesheet" href="styles/css/description/description.css">
+  <link rel="stylesheet" href="styles/css/home/home.css">
+  <link rel="stylesheet" href="styles/css/partners/partners.css">
+  <link rel="stylesheet" href="styles/css/projects/projects.css">
+  <!-- endinject -->
+</head>
+
+<body class="tisseursdetemps">
+  <div class="menu">
+    <nav class="navbar navbar-black navbar-default" ui-route="/home" ng-hide="$uiRoute" ng-class="{active: !$uiRoute}">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" ui-sref="home">
+            <div class="banner" ng-show="$state.current.name !== 'home'">
+              <img src="styles/imgs/banner.png" alt="Tisseurs de Temps"/>
+            </div>
+          </a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a ui-sref-active="active" ui-sref="home">accueil</a></li>
+            <li><a ui-sref-active="active" ui-sref="projects">projets</a></li>
+            <li><a ui-sref-active="active" ui-sref="description">la compagnie</a></li>
+            <li><a ui-sref-active="active" ui-sref="partenaires">nos partenaires</a></li>
+            <li><a href="mailto:contact@tisseursdetemps.fr">contact</a></li>
+          </ul>
+        </div>
+        <!--/.nav-collapse -->
+      </div>
+      <!--/.container-fluid -->
+    </nav>
+  </div>
+  <div class="main-div container-fluid" ui-view></div>
+  <!-- bower:js -->
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-ui-route/route.js"></script>
+  <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <script src="bower_components/angular-ui-scroll/dist/ui-scroll.js"></script>
+  <script src="bower_components/angular-ui-scrollpoint/dist/scrollpoint.js"></script>
+  <script src="bower_components/angular-ui-event/dist/event.js"></script>
+  <script src="bower_components/angular-ui-mask/dist/mask.js"></script>
+  <script src="bower_components/angular-ui-validate/dist/validate.js"></script>
+  <script src="bower_components/angular-ui-indeterminate/dist/indeterminate.js"></script>
+  <script src="bower_components/angular-ui-uploader/dist/uploader.js"></script>
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/fastclick/lib/fastclick.js"></script>
+  <script src="bower_components/jquery.cookie/jquery.cookie.js"></script>
+  <script src="bower_components/jquery-placeholder/jquery.placeholder.js"></script>
+  <script src="bower_components/angular-ui-utils/index.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+  <script src="bower_components/foundation/js/foundation.min.js"></script>
+  <!-- endinject -->
+  <script src="app.js"></script>
+  <!-- features:js -->
+  <script src="scripts/feature/description/description.controller.js"></script>
+  <script src="scripts/feature/home/home.controller.js"></script>
+  <script src="scripts/feature/partners/partners.controller.js"></script>
+  <script src="scripts/feature/projects/projectDetail.controller.js"></script>
+  <script src="scripts/feature/projects/projects.controller.js"></script>
+  <!-- endinject -->
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".navbar-nav li a").click(function(event) {
+        $(".navbar-collapse").collapse('hide');
+      });
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "angular-ui-route",
+  "main": "./route.js",
+  "dependencies": {
+    "angular": ">= 1.0.2"
+  },
+  "homepage": "https://github.com/angular-ui/ui-utils",
+  "_release": "route-0.2.3",
+  "_resolution": {
+    "type": "tag",
+    "tag": "route-0.2.3",
+    "commit": "291d55e05c8105d609e8ed4527e4dc6b7f8ab676"
+  },
+  "_source": "git://github.com/angular-ui/ui-utils.git",
+  "_target": "route-0.2.3",
+  "_originalSource": "angular-ui-utils"
+}

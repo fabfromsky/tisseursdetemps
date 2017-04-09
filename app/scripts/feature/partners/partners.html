@@ -1,0 +1,31 @@
+<div class="page partners">
+  <div class="content">
+    <div class="bloc">
+      <div class="title large-8 large-offset-2">
+        <h1 class="page-title text-white">
+          Nos partenaires
+        </h1>
+      </div>
+      <div class="partners-list large-8 large-offset-2">
+        <div class="partner" ng-repeat="partner in pac.partners">
+          <div class="partner-cover">
+            <img src="styles/imgs/{{partner.img.src}}"/>
+          </div>
+          <div class="partner-infos">
+            <div class="partner-title">
+              {{partner.title}}
+            </div>
+            <div class="partner-summary">
+              {{partner.description}}
+            </div>
+            <div class="go-partner">
+              <a href="{{link.href}}" class="dark" ng-repeat="link in partner.links" target="_blank">
+                / {{link.title}}
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

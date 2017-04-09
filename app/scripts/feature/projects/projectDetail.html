@@ -1,0 +1,103 @@
+<div class="page project-detail">
+  <div class="content">
+    <div class="bloc" ng-if="pdc.project != null">
+      <div class="small-12 title large-8 large-offset-2">
+        <h1 class="page-title text-white">
+          {{pdc.project.title}}
+        </h1>
+        <a ui-sref="projects">/ retour à la liste des projets</a>
+      </div>
+      <div class="project project-infos small-12 large-8 large-offset-2">
+        <section class="description-section large-6">
+          <div class="">
+            <div class="section-text">
+              <span ng-bind-html="projectDescription"></span>
+            </div>
+          </div>
+        </section>
+        <section class="infos-section large-6">
+          <div><span class="date">Prochaines dates: </span><span>{{pdc.project.infos.date}}</span></div>
+          <div><span class="time">Horaires: </span><span>{{pdc.project.infos.horaire}}</span></div>
+          <div><span class="price">Tarifs: </span><span>{{pdc.project.infos.tarif}}</span></div>
+          <div><span class="">à </span><span>{{pdc.project.infos.lieu}}</span></div>
+          <div><span class=""></span><span>{{pdc.project.infos.adresse}}</span></div>
+          <div><span class=""></span><span>{{pdc.project.infos.sup}}</span></div>
+          <div class="reservation_link small-12 large-8 large-offset-2"><a href="{{pdc.project.reservation}}" target="_blank">/ Réserver en ligne</a></div>
+        </section>
+      </div>
+      <div class="project small-12 large-8 large-offset-2">
+        <ul>
+          <li ng-repeat="cast in pdc.project.casting" class="small-12 medium-12">
+            <span class="cast">
+              <span class="cast-img medium-6">
+                <img src="styles/imgs/{{cast.img.src}}" alt="{{cast.img.name}}" title="{{cast.img.name}}"/>
+              </span>
+              <span class="cast-infos medium-6">
+                <div class="cast-name">
+                  <h2>{{cast.actor}} est {{cast.name}}</h2>
+                </div>
+                <div class="cast-story show-for-medium-up">
+                  <div>{{cast.story}}</div>
+                </div>
+                <div class="cast-website" ng-repeat="link in cast.links">
+                  <a href="{{link.href}}" target="_blank" ng-if="link.id != 'fb'">/{{link.title}} de {{cast.actor}}</a>
+                  <a href="{{link.href}}" target="_blank" ng-if="link.id === 'fb'">/{{link.title}}</a>
+                </div>
+              </span>
+              <span class="cast-infos-small show-for-small-only">
+                <div class="cast-story">
+                  <div>{{cast.story}}</div>
+                </div>
+              </span>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="project small-12 large-8 large-offset-2">      
+        <h2 class="section-title">L'équipe</h2>
+        <ul>
+          <li ng-repeat="staff in pdc.project.staff" class="small-12 medium-12">
+            <span class="staff">
+              <span class="staff-img">
+                <img src="styles/imgs/{{staff.img.src}}" alt="{{staff.img.name}}" title="{{staff.img.name}}"/>
+              </span>
+              <span class="staff-infos">
+                <span class="staff-name">
+                  <h2>{{staff.name}}</h2>
+                </span>
+                <span class="staff-company" ng-if="staff.company">
+                  <h2>/ {{staff.company}}</h2>
+                </span>
+                <div class="staff-roles">
+                  <div ng-repeat="role in staff.roles"># {{role}} </div>
+                </div>
+                <div class="staff-story show-for-medium-up">
+                  <div>{{staff.story}}</div>
+                </div>
+                <div class="staff-website">
+                  <div ng-repeat="link in staff.links">
+                    <a href="{{link.href}}" target="_blank" ng-if="link.id != 'fb'">/{{link.title}} de {{staff.name}}</a>
+                    <a href="{{link.href}}" target="_blank" ng-if="link.id === 'fb'">/Facebook: {{link.title}}</a>
+                  </div>
+                </div>
+              </span>
+              <span class="staff-infos-small show-for-small-only">
+                <div class="staff-story">
+                  <div>{{staff.story}}</div>
+                </div>
+              </span>
+            </span>
+          </li>
+        </ul>
+      </div>
+      <div class="reservation_link small-12 large-8 large-offset-2"><a href="{{pdc.project.reservation}}" target="_blank">/ Réserver en ligne</a></div>
+    </div>
+    <div class="bloc no-project" ng-if="!pdc.project">
+      <h1>Désolés, aucun projet ne correspond.</h1>
+      <div class="logo">
+          <img src="styles/imgs/logo-w-tr.png" alt="logo Tisseurs de Temps"/>
+      </div>
+      <a ui-sref="projects">/ retour à la liste des projets</a>
+    </div>
+  </div>
+</div>

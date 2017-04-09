@@ -1,0 +1,42 @@
+.description {
+  background-image: url("../imgs/logo-w-tr.png"); }
+  .description .compagnie .description-section {
+    margin: 0 10px;
+    background: #F0F0F0;
+    color: #333;
+    padding: 20px;
+    line-height: 0.8; }
+  .description .compagnie img {
+    width: 100%; }
+  .description .members ul {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 20px; }
+    .description .members ul > li {
+      display: inline-block;
+      box-sizing: border-box;
+      padding-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      color: #F0F0F0; }
+      .description .members ul > li .member {
+        min-height: 150px;
+        display: flex;
+        padding: 10px;
+        border: 1px solid white;
+        height: 100%;
+        color: #F0F0F0; }
+        .description .members ul > li .member > span {
+          display: inline-block; }
+        .description .members ul > li .member .member-img {
+          background: #F0F0F0;
+          padding: 2px; }
+          .description .members ul > li .member .member-img img {
+            max-height: 150px;
+            max-width: 100%; }
+        .description .members ul > li .member .member-infos {
+          margin-left: 20px; }
+          .description .members ul > li .member .member-infos .member-name > h2 {
+            color: #F0F0F0;
+            text-transform: capitalize;
+            padding-bottom: 10px; }

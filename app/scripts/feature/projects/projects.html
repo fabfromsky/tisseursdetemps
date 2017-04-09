@@ -1,0 +1,33 @@
+<div class="page projects">
+  <div class="content">
+    <div class="bloc">
+      <div class="title large-8 large-offset-2">
+        <h1 class="page-title text-white">
+          Projets
+        </h1>
+      </div>
+      <div class="projects-list large-8 large-offset-2">
+        <div class="project" ng-repeat="project in pc.projects">
+          <div class="project-cover small-12 medium-6 large-4 xlarge-4 centered">
+            <a ui-sref="detail({id: project.id})">
+              <img src="styles/imgs/{{project.cover}}" alt="{{project.title}}" title="{{project.title}}"/>
+            </a>
+          </div>
+          <div class="project-infos small-12 medium-6 large-8 xlarge-8">
+            <div class="project-title small-text-center medium-text-left">
+              {{project.title}}
+            </div>
+            <div class="project-summary small-text-left medium-text-left">
+              {{project.summary}}
+            </div>
+            <div class="go-project small-text-center medium-text-left">
+              <a ui-sref="detail({id: project.id})" class="dark">
+                / Voir plus
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

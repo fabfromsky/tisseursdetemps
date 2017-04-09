@@ -1,0 +1,57 @@
+[
+	{
+		"name": "élise",
+		"lastname": "renouvin",
+		"title": ["auteure", "metteur en scène"],
+		"bio": "lorem ipsum",
+		"img": {
+			"title": "elise",
+			"src": "elise.png"
+		}
+	},{
+		"name": "maïlis",
+		"lastname": "dupont",
+		"title": ["comédienne", "escrimeuse", "chanteuse"],
+		"bio": "lorem ipsum",
+		"img": {
+			"title": "mailis",
+			"src": "mailis.png"
+		}
+	},{
+		"name": "kévin",
+		"lastname": "dupont",
+		"title": ["compositeur", "musicien"],
+		"bio": "lorem ipsum dolor",
+		"img": {
+			"title": "kevin",
+			"src": "kevin.png"
+		}
+	},{
+		"name": "thomas",
+		"lastname": "dupont",
+		"title": ["secrétaire"],
+		"bio": "lorem ipsum dolor",
+		"img": {
+			"title": "thomas",
+			"src": "thomas.png"
+		}
+	},{
+		"name": "laurent",
+		"lastname": "buson",
+		"title": ["trésorier"],
+		"bio": "lorem ipsum dolor",
+		"img": {
+			"title": "laurent",
+			"src": "laurent.png"
+		}
+	},{
+		"name": "fabien",
+		"lastname": "désert",
+		"title": ["président"],
+		"bio": "lorem ipsum dolor",
+		"img": {
+			"title": "fabien",
+			"src": "fabien.png"
+		}
+	}
+]

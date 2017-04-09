@@ -1,0 +1,51 @@
+<div class="page description">
+  <div class="content">
+    <div class="title large-8 large-offset-2">
+      <h1 class="page-title text-white">
+        La compagnie
+      </h1>
+    </div>
+    <div class="compagnie small-12 large-8 large-offset-2">
+      <section class="description-section">
+        <div class="">
+          <div class="section-text">
+            <p><b>Tisseurs de Temps</b> est née de l'association d'une poignée de personnes venant
+                  d'horizons différents mais partageant une envie commune, celle de créer, diffuser, partager
+                  et promouvoir l'art et la culture.
+            </p>
+            <p>La compagnie a vu officiellement le jour le 24 février 2016 avec en rêve des images de
+                  pirates, de chants et de combats à l'épée.
+            </p>
+            <p>L'association est alors créée autour d'un projet de pièce original ayant pour thème la
+                  piraterie et réunissant déjà plusieurs disciplines artistiques. À cette pièce viendra se greffer
+                  un teaser vidéo, ajoutant une nouvelle discipline au projet.
+            </p>
+            <p>L'ambition de <b>Tisseurs de Temps</b> est de métisser les champs artistiques en réunissant
+                  des personnes d'origines diverses autour d'un même but : faire rêver, voyager et
+                  s'émerveiller.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="members small-12 large-8 large-offset-2">
+      <ul>
+        <li ng-repeat="member in dc.members" class="small-12 medium-6 xlarge-4">
+          <span class="member">
+            <span class="member-img">
+              <img src="styles/imgs/{{member.img.src}}" name="{{member.img.name}}"/>
+            </span>
+            <span class="member-infos">
+              <span class="member-name">
+                <h2>{{member.name}} {{member.lastname}}</h2>
+              </span>
+              <span class="member-function">
+                <div ng-repeat="title in member.title"># {{title}} </div>
+              </span>
+            </span>
+          </span>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

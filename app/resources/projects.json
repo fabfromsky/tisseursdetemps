@@ -1,0 +1,137 @@
+[
+	{
+		"id": "sansmercy",
+		"cover": "sansmercy.png",
+		"title": "Sans Mercy",
+		"summary": "Notre premier projet 'Sans Mercy' réunit le théâtre, l'escrime ancienne et la musique autour du thème de la piraterie du 18ème siècle et met en scène les personnages de Jack Rackham, Ann Bonny et Mary Read, écumant les mers de la Jamaïque à bord du Sans Mercy",
+		"description": "<p>1718, au large de la Jamaïque, le Sans Mercy, bateau pirate, sème la terreur. A son bord : le capitaine Jack Rackham est secondé par Ann Bonny et Mary Read.</p><p>La Compagnie professionnelle “Tisseurs de Temps” a choisi de raconter le destin atypique et cruel de ces trois personnages historiques, interprétés par des comédiens-escrimeurs confirmés. Au delà du récit épique de piraterie, “Sans Mercy” raconte une naissance des idées de liberté, d’égalité et de fraternité, dans un XVIIIème siècle cruel et intolérant, où l’être humain a moins de valeur que le cheval.</p><p>Embarquez avec l’équipage et passez du soleil des Caraïbes aux ténèbres d’une geôle...</p>",
+		"reservation": "https://www.billetweb.fr/sans-mercy",
+		"casting": [
+			{
+				"name": "Jack Rackham",
+				"actor": "Adrien Calendron",
+				"story": "Jack Rackam, tout d'abord, follement amoureux d'Ann Bonny au point de la laisser s'embarquer avec lui sur le Sans Mercy, déguisée en garçon. Jack est un être simple, certainement un enfant du port de New Providence, futé et bagarreur, bon vivant ayant un penchant certain pour la bouteille mais suffisamment lucide pour savoir qu'il ne serait pas resté capitaine sans les conseils d'Ann.",
+				"img": {
+					"src": "sansmercy/jackrackham.png",
+					"title": "Jack Rackham"
+				},
+				"links": [
+					{
+						"href": "https://adriencalendron.fr/",
+						"title": "site web"
+					}
+				]
+			}, {
+				"name": "Ann Bonny",
+				"actor": "Maïlis Dupont",
+				"story": "Ann Bonny, quant à elle, est la fille d'un notable ayant dû fuir l'Irlande suite à une histoire d'amour avec la domestique de la maison. Elle est élevée dans une plantation de Caroline du Sud, entourée d'esclaves et de professeurs. Elle se croit adorée par son père, jusqu'à ce que celui-ci projette de la marier avec un voisin pour agrandir son domaine. Elle se rebelle, fugue après avoir poignardé sa bonne et mis le feu à la plantation et se marie avec un simple matelot, qui se révèle être un pirate minable et couard. Elle le quitte à New Providence pour rejoindre Jack Rackam.",
+				"img": {
+					"src": "sansmercy/annbonny.png",
+					"title": "Ann Bonny"
+				},
+				"links": [
+					{
+						"href": "http://www.dmailis.book.fr/",
+						"title": "site web"
+					}
+				]
+			}, {
+				"name": "Mary Read",
+				"actor": "Moona Gay",
+				"story": "Mary Read, fille d'une prostituée anglaise, naît dans la misère. Au décès de son frère Willy, sa mère la contraint à le remplacer en l'habillant en garçon. Elle a 2 ans. À l'adolescence, elle s'engage comme valet de pied puis devient militaire et participe aux campagnes de Flandres contre Louis XIV, où elle rencontre son futur mari. À peine installée avec lui, celui-ci décède. Mary reprend ses habits d'homme et s'engage comme marin militaire jusqu'à sa rencontre avec Jack et Ann.",
+				"img": {
+					"src": "sansmercy/maryread.png",
+					"title": "Mary Read"
+				},
+				"links": [
+					{
+						"href": "http://www.moonagay.book.fr/",
+						"title": "site web"
+					}
+				]
+			}
+		],
+		"staff": [
+			{
+				"name": "Elise Renouvin",
+				"roles": ["Auteure", "Metteur en scène"],
+				"story": "Après avoir été formée à Paris en théâtre et marionnettes, elle entame sa carrière de comédienne dans différentes compagnies parisiennes durant 4 années. Elle complète aussi sa formation par différents apprentissages : la régie lumière, le masque neutre et la commedia del Arte, le doublage cinéma, le théâtre chorégraphié... Elle rejoint ensuite la Bretagne au sein de la compagnie du théâtre de l’Éclair où elle interprète, entre autres, Titania dans Le Songe d'une Nuit d'été de Shakespeare, la Comtesse dans le Mariage de Figaro de Beaumarchais, ou encore Madame Marguerite, un « seule en scène » de Roberto Athayde. Elle a aussi mis en scène plusieurs spectacles comme L'éventail de Goldoni ou Cinémassacre de Boris Vian. En 2000, elle crée la compagnie « Et Alors ! » et monte sa propre création, Octave, un spectacle musical mariant la comédie et le piano. Aujourd'hui, après plus de 25 ans de carrière, elle est un des membres fondateurs de la compagnie « Tisseurs de Temps », et auteur et metteur en scène de « Sans Mercy ».",
+				"img": {
+					"title": "élise renouvin",
+					"src": "sansmercy/eliserenouvin.jpg"
+				}
+			},
+			{
+				"name": "Aurélie de Casimacker",
+				"company": "Autant en porte le vêtement",
+				"roles": ["costumière"],
+				"story": "Passionnée de couture depuis son enfance, Aurélie a appris à manier l’aiguille dès son plus jeune âge. Après un BTS de styliste-modéliste, et quatre années passées au sein d’une grande marque de mode enfantine en tant qu’assistante styliste-modéliste, Aurélie a choisi de créer son entreprise de création de costumes en janvier 2012, en qualité d’artisan auto-entrepreneur. “Autant en porte le vêtement” est née de sa passion pour l’Histoire, les belles étoffes et les costumes. Elle travaille aussi bien pour des particuliers reconstituteurs que des musées ou des troupes de théâtre.",
+				"img": {
+					"title": "aurelie de casimacker",
+					"src": "sansmercy/aureliedecasimacker.jpg"
+				},
+				"links": [
+					{
+						"href": "http://autantenportelevetement.com/",
+						"title": "site web"
+					},{
+						"href": "https://www.facebook.com/Autant-en-porte-le-v%C3%AAtement-375126689166336/",
+						"title": "Autant en porte le vêtement",
+						"id": "fb"
+					}
+				]
+			},
+			{
+				"name": "Thierry Daniel",
+				"roles": ["corégraphe de combat"],
+				"story": "Escrimeur et comédien depuis 25 ans, sa démarche est d’offrir aux spectateurs une vision de l’escrime esthétique et réaliste, mais toujours au service de l’histoire, des personnages. Que ce soit du tournoi médiéval, du pirate, du spadassin, du mousquetaire ou du marquis, il a exploré ces univers aux travers de spectacles avec les troupes suivantes : Mac’htiern, Lances de Bretagne, Lames du Temps, Cie du Lysandore, Art Escrime Spectacle.Il a été médaillé de multiples fois lors des compétitions d’Escrime Artistique de 1998 à 2012 (champion de France, vice champion du Monde, 1er duo aux internationaux de Berlin).",
+				"img": {
+					"title": "thierry daniel",
+					"src": "sansmercy/thierrydaniel.png"
+				},
+				"links": [
+					{
+						"href": "http://autantenportelevetement.com/",
+						"title": "site web"
+					},{
+						"href": "https://www.facebook.com/Autant-en-porte-le-v%C3%AAtement-375126689166336/",
+						"title": "Autant en porte le vêtement",
+						"id": "fb"
+					}
+				]
+			},
+			{
+				"name": "Kévin Dupont",
+				"roles": ["compositeur"],
+				"story": "Bassiste et compositeur dans différents groupes de musiques actuelles, Kévin s'inspire aussi bien d'esthétiques contemporaines (Minimalisme, Rock, Jazz...) que classiques, romantiques ou modernes. Titulaire d'une licence de musicologie et préparant un DEM (Diplôme d’Etudes Musicales) au Conservatoire de Rennes, il travaille aussi durant ses études avec des comédiens et des plasticiens. Son goût pour les projets interdisciplinaires l'ont conduit à intégrer la compagnie « Tisseurs de Temps » et à créer la musique et les arrangements sonores pour le spectacle “Sans Mercy”.",
+				"img": {
+					"title": "kévin dupont",
+					"src": "sansmercy/kevindupont.png"
+				}
+			},
+			{
+				"name": "Jean-Louis Dupont",
+				"roles": ["assistant metteur en scène"],
+				"story": "Jean-Louis Dupont est né le 29 novembre 1951 à Noyant-la-Gravoyère, dans le Maine-et-Loire. Il suit à Paris les cours d'art dramatique Jean Périmony ainsi que de nombreux stages avec entre autres : Philippe Avron, Anne-Marie Lazarini, Pierre Etaix, Yoshi Oïda... Depuis une quarantaine d'années il joue dans plus d'une centaine de spectacles (théâtre, café-théâtre, masques, marionnettes, théâtre de rue, animations médiévales..) Dans les années 80 il créé un spectacle seul en scène : « Cause toujours Dupont... c'est provisoire !» mis en scène par Michel Estier. Il tournera ce spectacle 7 ou 8 ans dans de nombreuses salles et festivals dont le 7ème Festival International de Café-Théâtre et de Théâtre en Marche de Rennes. Parallèlement il tourne pour la télé- vision et le cinéma avec entre autres : Jean-Christophe Averty, Claire Devers, Jean Becker, Manuel Poirier, Vladislav Naoumov, Christophe Régin, Abdellatif Kechiche... Il publie simultanément un recueil de théâtre de trois pièces : « Cause toujours Dupont... c'est provisoire ! », « Les pendules à l'heure » et « Les avatars de Mireille », ainsi qu'un recueil de poésie.",
+				"img": {
+					"title": "jean louis dupont",
+					"src": "sansmercy/jeanlouisdupont.jpg"
+				},
+				"links": [
+					{
+						"href": "http://jeanlouisdupont.book.fr",
+						"title": "site web"
+					}
+				]
+			}
+		],
+		"infos": {
+			"date": "21 et 22 avril 2017",
+			"horaire": "20h30",
+			"tarif": "13€ plein, 9€ reduit",
+			"lieu": "La Maison des Associations",
+			"adresse": "6 cours des alliés à Rennes",
+			"sup": "déconseillé aux enfants de moins de 8 ans"
+		}
+	}
+]

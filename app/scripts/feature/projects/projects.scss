@@ -1,0 +1,292 @@
+.projects {
+
+  .bloc {
+
+    .title {
+      width:  100%;
+    }
+
+    .projects-list {
+      padding: 0px 10px;
+    }
+
+    .project {
+      padding-bottom: 20px;
+      overflow: hidden;
+    }
+
+    .project-cover {
+      max-height: 300px;
+      min-height: 100%;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img { 
+        min-height: 100%;
+        min-width: 100%;
+      }
+    }
+
+    .project-infos {
+      background: #F0F0F0;
+      color: #333;
+      padding: 20px;
+      position: relative;
+      
+      .project-title {
+        font-size: 20px;
+      }
+
+      .project-summary {
+        padding-right: 20px;
+        font-size: 14px;
+        margin-bottom: 40px;
+      }
+
+      .go-project {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        position: absolute;
+        bottom: 0;
+
+        a {
+          color: #df6632;
+
+          &:hover,
+          &:visited {
+            color: #df6632;
+            text-shadow: 0px 0px 5px #df6632;
+            text-decoration: none;
+          }
+        }
+      }
+    }  
+  }
+
+}
+
+.project-detail {
+
+  .title {
+
+    > h1, > a {
+      display: inline-block;
+    }
+  }
+
+  .description-section {
+    background: #F0F0F0;
+    color: #333;
+    padding: 20px;
+    line-height:  0.8;
+  }
+
+  .project {
+
+    > ul {
+      margin-top: 20px;
+      margin-left: 0;
+
+      >li {
+        display: inline-block;
+        box-sizing: border-box;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #F0F0F0;
+        vertical-align: top;
+
+        img {
+          width: 100%;
+        }
+      } 
+    }
+
+    > h2 {
+      color: #F0F0F0;
+    }
+
+    .infos-section {
+      box-sizing: border-box;
+      background: #F0F0F0;
+      color: #333;
+      padding: 20px;
+      vertical-align: top;
+      font-size: 14px;
+      line-height: 18px;
+
+      .date, .time, .price {
+        font-weight: bold;
+      }
+
+      .reservation_link {
+        text-align: center;
+        a {
+          color: #333;
+          height: 40px;
+          padding: 10px;
+          border: 1px solid #333;
+          margin-bottom: 20px;
+          display: block;
+          width: 180px;
+          margin-top: 20px;
+          margin-left: auto;
+          margin-right: auto;
+
+        }
+      }
+    }
+
+
+  }
+
+  .cast {
+
+    .cast-img {
+      overflow: hidden;
+      align-items: baseline;
+      justify-content: center;
+      display: flex;
+      margin-bottom: 10px;
+    }
+
+    .cast-infos {
+
+      .cast-name > h2 {
+        color: #F0F0F0;
+        padding-bottom: 10px;
+      }
+
+      .cast-story{
+        font-size: 14px;
+      } 
+      .cast-website {
+        font-size: 14px;
+        padding-bottom: 10px;
+      }
+    }
+
+    .cast-infos-small {
+      width: 100%;
+      display: block;
+    }
+  } 
+
+  .staff {
+    min-height: 150px;
+    height: 100%;
+
+
+    .staff-img {
+      overflow: hidden;
+      align-items: baseline;
+      justify-content: center;
+      display: flex;
+      margin-bottom: 10px;
+        min-width: 300px;
+
+      > img {
+       width: 100%;
+      }
+    }
+
+    .staff-infos {
+
+      .staff-name > h2, .staff-company > h2  {
+        display: inline-block;
+        color: #F0F0F0;
+        margin-right: 10px;
+      }
+
+      .staff-story{
+        padding-top: 10px;
+        font-size: 14px;
+      } 
+      .staff-website {
+        font-size: 14px;
+        padding-bottom: 10px;
+      }
+    }
+
+    .staff-infos-small {
+      width: 100%;
+      display: block;
+    }
+
+  }
+
+  .reservation_link {
+    text-align: center;
+    a {
+      height: 40px;
+      padding: 10px;
+      border: 1px solid white;
+      margin-bottom: 20px;
+      display: block;
+      width: 180px;
+      margin-top: 20px;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+  }
+
+  .no-project {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+
+    .logo img {
+      height: 400;
+      width: 400px;
+    }
+    > h1, > a {
+      display: inline-block;
+      color: #F0F0F0;
+    }
+  }
+}
+@media (min-width: 640px) {
+
+  .projects {
+
+    .project {    
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  .project-detail {
+    .project > ul > li > span {
+      border: 1px solid white;
+      padding: 10px;
+      display: flex;
+    }
+
+    .project-infos {
+      display: flex;
+
+      > section {
+        margin: 10px;
+
+        &.description-section {
+          flex: 2;
+        }
+        &.infos-section {
+          flex: 1;
+        }
+      }
+    }
+
+    .staff-img, .cas-img {
+      margin-bottom: 0;
+    }
+
+    .cast-infos, .staff-infos {
+      margin-left: 20px;
+    }
+  }
+}

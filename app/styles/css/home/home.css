@@ -1,0 +1,82 @@
+.page.home {
+  display: flex;
+  flex-direction: row;
+  align-items: center; }
+  .page.home .background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: url("../../imgs/background.jpg");
+    background-size: cover; }
+  .page.home .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(50, 50, 50, 0.4);
+    background-size: cover; }
+
+.presentation {
+  width: 100%; }
+  .presentation .logo {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    .presentation .logo > img {
+      width: 150px;
+      height: 150px; }
+  .presentation .banner {
+    display: inline-block;
+    margin-bottom: 20px; }
+    .presentation .banner img {
+      max-height: 80px;
+      max-width: 95%; }
+  .presentation h2 {
+    color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px; }
+  .presentation .video {
+    text-align: center; }
+    .presentation .video iframe {
+      max-width: 100%; }
+  .presentation .project_link {
+    color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px; }
+  .presentation .info_line {
+    margin-top: 40px;
+    text-align: center; }
+    .presentation .info_line img.fb-icon {
+      height: 40px;
+      width: 40px; }
+  .presentation .punch_line {
+    margin-bottom: 40px; }
+
+@media (max-width: 1024px) {
+  .page.home .presentation {
+    text-align: center; }
+    .page.home .presentation .logo {
+      display: block;
+      margin-top: 40px;
+      margin-bottom: 10px; }
+      .page.home .presentation .logo > img {
+        width: 150px;
+        height: 150px; }
+    .page.home .presentation .banner {
+      display: block;
+      margin-bottom: 40px; }
+      .page.home .presentation .banner img {
+        max-height: 50px;
+        max-width: 95%; }
+    .page.home .presentation h2 {
+      color: white;
+      margin-left: 0;
+      margin-right: 0;
+      text-align: left;
+      padding-left: 20px;
+      width: 100%; }
+    .page.home .presentation .project_link {
+      width: 100%; } }

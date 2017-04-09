@@ -1,0 +1,20 @@
+[
+	{
+		"img": {
+			"src": "partners/hdj.png",
+			"title": "L'Heure du Jeu"
+		},
+		"title": "L'Heure du Jeu",
+		"description": "L’heure du jeu, c’est un lieu où vous venez prendre un verre, manger un morceau et jouer à des jeux de société, et tout ça, en même temps !",
+		"links": [
+			{
+				"href": "http://www.lheuredujeu.fr/", 
+				"title": "site web de L'Heure du Jeu"
+			},
+			{
+				"href": "https://www.facebook.com/lheuredujeu/",
+				"title": "page Facebook de L'Heure du Jeu"
+			}
+		]
+	}
+]
